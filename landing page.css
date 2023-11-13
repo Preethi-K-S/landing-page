@@ -1,0 +1,201 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html {
+  scroll-behavior: smooth;
+}
+li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+ 
+
+}
+li{
+    float: left;
+  padding-left: 190px;
+  }
+ul{
+    list-style: none;
+ 
+ 
+}
+.navbar{
+    background-color: black;
+      padding: 5px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+    z-index: 100;
+      overflow: hidden;
+}
+#home{
+    padding: 80px;
+    background: linear-gradient(white,rgb(32, 32, 32));
+}
+#home .container{
+   background: linear-gradient(black,white);
+    padding: 30px;
+    border-radius: 20px 20px;
+}
+#home .left{
+    text-align: right;
+  padding: 20px;
+  padding-top: 40px;
+}
+#home .right{
+    padding: 10px;
+}
+#home button{
+    padding: 10px;
+    border-radius: 20px 20px;
+    font-size: 20px;
+    margin: 10px;
+    border:2px solid rgb(212, 188, 48);
+}
+#about{
+    margin-top: 40px;
+    padding: 50px;
+    
+}
+#about .img1{
+    padding: 50px;
+}
+#about .img1 h5{
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#about .img1 img{
+    border-radius: 20px 20px;
+    box-shadow: 2px 2px 30px black;
+    margin: 10px;
+   
+}
+
+#about .img2 h5{
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#about .img2 img{
+    border-radius: 20px 20px;
+    box-shadow: 2px 2px 10px black;
+    margin: 10px;
+   
+}
+
+#shop h1{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.card {
+    position: relative;
+
+    border-radius: 30px 30px;
+   box-shadow: 2px 2px 20px black;
+   
+   
+  }
+
+  
+  
+  .card img {
+    transition: transform 0.5s;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 40px;
+    border-radius: 50px 50px;
+
+  }
+  
+  .card:hover img {
+    transform: scale(1.0);
+  }
+  
+  .card-body {
+    padding: 30px;
+  }
+  .zoom-card {
+    transition: transform 0.3s;
+  }
+  
+  .zoom-card:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  
+  .card  h4{
+    color: black;
+    animation: animate1 2s linear infinite; 
+  }
+  @keyframes animate1 { 
+    0% { 
+      color:black ;
+      
+    } 
+  
+    50% { 
+  
+        color:rgb(100, 98, 98);
+    } 
+  
+    
+  } 
+  
+
+
+#shop button{
+    padding: 10px;
+    border-radius: 20px 20px;
+    font-size: 20px;
+    margin: 10px;
+    border:2px solid rgb(212, 188, 48);
+}
+#shop .row{
+    margin: 50px;
+    padding: 10px;
+  
+}
+#order form{
+  padding: 30px;
+  padding-left: 130px;
+  
+}
+#order label{
+  padding: 10px;
+  font-size: 30px;
+}
+#order input{
+  padding: 5px;
+  margin-left: 19px;
+  width: 400px;
+}
+
+#order button{
+  padding: 10px;
+  width: 150px;
+    border-radius: 20px 20px;
+    font-size: 20px;
+    margin: 10px;
+    border:2px solid rgb(212, 188, 48);
+    margin-left: 440px;
+ 
+}
+
+#order .c{
+
+ border-radius: 20px 20px;
+ box-shadow: 2px 2px 30px black;
+
+}
+footer{
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(rgb(58, 55, 55),white);
+}
